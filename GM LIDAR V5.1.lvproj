@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="15008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="GIT_FILE" Type="Bool">false</Property>
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -969,6 +970,7 @@ EEPROM Power EnabledNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Modu
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2PWr;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 0 Rd Data;0;ReadMethodType=boolPFI 0 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 0 WE;0;WriteMethodType=boolPFI 0 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 0 Wr Data;0;WriteMethodType=boolPFI 1 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 1 Rd Data;0;ReadMethodType=boolPFI 1 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 1 WE;0;WriteMethodType=boolPFI 1 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 1 Wr Data;0;WriteMethodType=boolPFI 2 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 2 Rd Data;0;ReadMethodType=boolPFI 2 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 2 WE;0;WriteMethodType=boolPFI 2 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 2 Wr Data;0;WriteMethodType=boolPFI 3 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 3 Rd Data;0;ReadMethodType=boolPFI 3 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 3 WE;0;WriteMethodType=boolPFI 3 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 3 Wr Data;0;WriteMethodType=boolPLL LockedNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PLL Locked;0;ReadMethodType=boolPXI Clk10 MHz ClockResourceName=PXI Clk10 MHz Clock;TopSignalConnect=PxiClk10;ClockSignalName=PxiClk10;MinFreq=10000000.000000;MaxFreq=10000000.000000;VariableFreq=0;NomFreq=10000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;PXI_Clk10NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Clk10;0;ReadMethodType=boolPXI_StarNumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Star;0;ReadMethodType=boolPXI_Trig0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig0;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig1;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig2;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig3;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig4ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig4;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig5ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig5;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig6ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig6;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig7ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig7;0;ReadMethodType=bool;WriteMethodType=boolPXIe_DStarBNumberOfSyncRegistersForReadInProject=Auto;resource=/PXIe/PXIe_DStarB;0;ReadMethodType=boolPXIe_DStarCArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXIe/PXIe_DStarC;0;ReadMethodType=bool;WriteMethodType=boolPXIe_Sync100NumberOfSyncRegistersForReadInProject=0;resource=/PXIe/PXIe_Sync100;0;ReadMethodType=boolPXIe-7972R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7972RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGASPI AddressArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Address;0;WriteMethodType=U16SPI DeviceArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Device;0;WriteMethodType=U8SPI IdleNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Idle;0;ReadMethodType=boolSPI Read DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Read Data;0;ReadMethodType=U8SPI ReadArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Read;0;WriteMethodType=boolSPI Write DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write Data;0;WriteMethodType=U16SPI WriteArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write;0;WriteMethodType=boolSPI"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"StartPulse"ControlLogic=1;NumberOfElements=514;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=100080000000000100094006000355313600010000000000000000;DisableOnOverflowUnderflow=FALSE"Trigger InputNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Trigger Input;0;ReadMethodType=boolUser Command CommitArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Command Commit;0;WriteMethodType=boolUser Command IdleNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Command Idle;0;ReadMethodType=boolUser Command StatusNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Command Status;0;ReadMethodType=U8User CommandArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Command;0;WriteMethodType=U8User Data 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Data 0;0;WriteMethodType=U8User Data 1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Data 1;0;WriteMethodType=U8User ErrorNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Error;0;ReadMethodType=U8User ReturnNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Return;0;ReadMethodType=U16VGA MEMActual Number of Elements=200;ReadArbs=1;WriteArbs=1;Implementation=1;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=0</Property>
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Property Name="Mode" Type="Int">0</Property>
 			<Property Name="NI.FPGA.79XXR.ConfiguredIOModule" Type="Str">IOModuleID:0x109375BC,Version:14.0.1,National Instruments::NI 5782,SyncClock:CLK10</Property>
 			<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Category" Type="Str">FlexRIO-K7IOModule</Property>
@@ -1901,6 +1903,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 			<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
 			<Item Name="Board IO" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="Clock100 PLL Unlocked" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="NumberOfSyncRegistersForReadInProject">
@@ -1912,6 +1915,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{06124FB4-FA32-42F6-9B52-B70866869735}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="Device 3.3V Power" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1924,6 +1928,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{5C663F84-0C6F-426D-8FA7-0E0946913971}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="Device 12V Power" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1936,6 +1941,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{45E92AF0-BFD8-46A2-AFAC-5091A4472538}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="Device Temperature" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1948,9 +1954,11 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{0623BA01-85B7-4E05-8A80-EDC28713C653}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 			</Item>
 			<Item Name="IO Module Status" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="EEPROM Power Enabled" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="NumberOfSyncRegistersForReadInProject">
@@ -1962,6 +1970,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{E8EDF29B-C8D2-4815-B140-1B2657CB0382}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="Expected IO Module ID" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1974,6 +1983,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{E4CBAED0-33B6-4D0A-BE5D-EF99DD1CDAAF}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="Inserted IO Module ID" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1986,6 +1996,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{E0E699FC-D635-4319-AC6E-49D1DBB9B5EB}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="IO Module IO Enabled" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1998,6 +2009,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{4D744A0A-A99C-47F2-8E16-383CD8B319E0}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="IO Module Power Enabled" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2010,6 +2022,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{67DA878B-1FD6-4123-ADFC-69CA598D05FB}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="IO Module Power Good" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2022,6 +2035,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{DB20BB48-FA37-4959-AB4D-96EE596163A3}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="IO Module Present" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2034,9 +2048,11 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{3A08FCC1-D68A-4D91-A66B-EEA3D4920A24}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 			</Item>
 			<Item Name="PXI" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="PXI_Clk10" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="NumberOfSyncRegistersForReadInProject">
@@ -2048,6 +2064,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{35752B2D-8828-45E4-8CA4-C6B34688D14C}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Star" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2060,6 +2077,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{8F678A87-9979-42B1-B16A-F0F6BE4AD484}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig0" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2084,6 +2102,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{E492ECBC-7D2D-4B14-B35C-9EF85AEB63BC}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig1" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2108,6 +2127,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{F58CAA43-7565-45E7-A7F6-C149C7B88CDB}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig2" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2132,6 +2152,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{A9A93648-5A7A-4FB0-A0B7-923E20160502}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig3" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2156,6 +2177,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{D6677ADB-F087-4F17-BA9C-A551C6142344}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig4" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2180,6 +2202,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{52DA40EB-634E-4C37-9E6D-370E63FB4933}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig5" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2204,6 +2227,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{226D51DC-79DF-41A2-9847-6753D0A43A35}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig6" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2228,6 +2252,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{A68D7317-D30D-444E-9D0D-E9E24B92022B}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig7" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2252,9 +2277,11 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{828DC0AF-B9E2-4121-9637-3E3D47873483}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 			</Item>
 			<Item Name="PXIe" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="PXIe_DStarB" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="NumberOfSyncRegistersForReadInProject">
@@ -2266,6 +2293,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{40389CEA-920E-4378-B019-0473456BA092}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXIe_DStarC" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2284,6 +2312,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{66C98CA4-CA5B-4302-A611-B951A6B31D5F}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXIe_Sync100" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2296,9 +2325,11 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{32FF9722-A689-491F-A90A-D3361CBD8E5E}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 			</Item>
 			<Item Name="Resources" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="FIFO" Type="FPGA FIFO">
 					<Property Name="Actual Number of Elements" Type="UInt">1023</Property>
 					<Property Name="Arbitration for Read" Type="UInt">1</Property>
@@ -2312,6 +2343,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 					<Property Name="fifo.valid" Type="Bool">true</Property>
 					<Property Name="fifo.version" Type="Int">12</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{308DAAFE-6F74-4655-9C1C-36EE4B5A39D7}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Local" Type="Bool">false</Property>
 					<Property Name="Memory Type" Type="UInt">2</Property>
 					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
@@ -2333,6 +2365,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 					<Property Name="fifo.valid" Type="Bool">true</Property>
 					<Property Name="fifo.version" Type="Int">12</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{AF981111-78E6-44EE-AC2F-FDD62BF4A99E}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Local" Type="Bool">false</Property>
 					<Property Name="Memory Type" Type="UInt">2</Property>
 					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
@@ -2354,6 +2387,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 					<Property Name="fifo.valid" Type="Bool">true</Property>
 					<Property Name="fifo.version" Type="Int">12</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{6417C350-2905-4F73-95E2-77CBAAE3B21E}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Local" Type="Bool">false</Property>
 					<Property Name="Memory Type" Type="UInt">2</Property>
 					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
@@ -2375,6 +2409,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 					<Property Name="fifo.valid" Type="Bool">true</Property>
 					<Property Name="fifo.version" Type="Int">12</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{6513D67D-CB9D-47A3-9EB6-353B70488F59}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Local" Type="Bool">false</Property>
 					<Property Name="Memory Type" Type="UInt">2</Property>
 					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
@@ -2386,6 +2421,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 				<Item Name="VGA MEM" Type="FPGA Memory Block">
 					<Property Name="FPGA.PersistentID" Type="Str">{59CD32FA-8031-45BA-AE48-86AF81347DFB}</Property>
 					<Property Name="fullEmulation" Type="Bool">false</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Memory Latency" Type="UInt">0</Property>
 					<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=200;ReadArbs=1;WriteArbs=1;Implementation=1;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=0</Property>
@@ -2420,6 +2456,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 					<Property Name="fifo.valid" Type="Bool">true</Property>
 					<Property Name="fifo.version" Type="Int">12</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{5DD1BE70-A09C-46DF-99DA-9FD345477A95}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Local" Type="Bool">false</Property>
 					<Property Name="Memory Type" Type="UInt">2</Property>
 					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
@@ -2431,6 +2468,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 			</Item>
 			<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
 				<Property Name="FPGA.PersistentID" Type="Str">{45A11820-C798-4F31-A1C1-401813EED322}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">Clk40</Property>
@@ -2448,6 +2486,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 				<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 				<Item Name="130MHz" Type="FPGA Derived Clock">
 					<Property Name="FPGA.PersistentID" Type="Str">{789395E5-ABB5-4A7C-8BB0-2221850C89C5}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig" Type="Str">Multiplier=13.000000;Divisor=4.000000</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig.Divisor" Type="Dbl">4</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig.FromExternalClock" Type="Bool">false</Property>
@@ -2458,6 +2497,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 				</Item>
 				<Item Name="80MHz" Type="FPGA Derived Clock">
 					<Property Name="FPGA.PersistentID" Type="Str">{D97F8CD4-9A5A-4FA0-8915-EF76BEEEA4B5}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig" Type="Str">Multiplier=2.000000;Divisor=1.000000</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig.Divisor" Type="Dbl">1</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig.FromExternalClock" Type="Bool">false</Property>
@@ -2469,6 +2509,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 			</Item>
 			<Item Name="200 MHz Clock" Type="FPGA Base Clock">
 				<Property Name="FPGA.PersistentID" Type="Str">{0C550EF5-8CF6-4837-B461-3290E03ECE2D}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">PllClk200</Property>
@@ -2487,6 +2528,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 			</Item>
 			<Item Name="DRAM Bank 0" Type="FPGA Component Level IP">
 				<Property Name="FPGA.PersistentID" Type="Str">{77650105-585E-4711-952D-3E1A92D90D0E}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str"></Property>
 				<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">true</Property>
 				<Property Name="NI.LV.CLIP.SocketSelection" Type="Str">FlexRIO-DRAMTypeC-Bank0</Property>
@@ -2734,6 +2776,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 			</Item>
 			<Item Name="IO Module" Type="FPGA Component Level IP">
 				<Property Name="FPGA.PersistentID" Type="Str">{E4952A0A-587C-416C-8FE2-8A003C1EC6BD}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.FPGA.79XXR.NormalizeCLIPPath" Type="Str">true</Property>
 				<Property Name="NI.LV.CLIP.ClockConnections" Type="Xml">
 <CLIPConnections>
@@ -3031,6 +3074,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{12CB8A2A-54C0-4E45-80DF-E9253406AC23}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Trigger Input" Type="Elemental IO">
@@ -3044,6 +3088,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{2AB4FEFC-1B1B-4CF2-8FF8-4378126FE801}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Read" Type="Elemental IO">
@@ -3060,6 +3105,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{F70958D9-A513-424B-AEB6-13F862437D61}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Write" Type="Elemental IO">
@@ -3076,6 +3122,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{5908DF4A-13FE-48DC-B609-7103B445D8A6}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Address" Type="Elemental IO">
@@ -3092,6 +3139,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{DC41FB0F-90CF-43C2-B4FE-EFEF1CE1EA5E}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Write Data" Type="Elemental IO">
@@ -3108,6 +3156,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{82299642-4E37-4807-8F68-BB880E75A3DC}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Read Data" Type="Elemental IO">
@@ -3121,6 +3170,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{A9DC2F54-1AB7-4737-9D92-AE1B256425D5}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Idle" Type="Elemental IO">
@@ -3134,10 +3184,12 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{56437BE7-3012-4517-8325-0C7CC0704148}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Data Clock" Type="FPGA Component Level IP Clock">
 					<Property Name="FPGA.PersistentID" Type="Str">{7FACF0A5-FBFF-4A6F-83A9-23087A058CD5}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.ClipClock.ExtendedName" Type="Str">IO Module/Data Clock</Property>
 					<Property Name="NI.LV.ClipClock.UsersVhdlClockName" Type="Str">Data Clock</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=IO ModuleA_AData Clock;TopSignalConnect=IO_ModuleA_ADivSampleClk;ClockSignalName=IO_ModuleA_ADivSampleClk;MinFreq=125000000.000000;MaxFreq=87500000.000000;VariableFreq=0;NomFreq=87500000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=45.000000;MaxDutyCycle=55.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
@@ -3170,6 +3222,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{DCD14519-4471-4944-90D6-1D740AD323A6}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="User Command" Type="Elemental IO">
@@ -3186,6 +3239,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{B7E58296-6E86-4DA2-BA41-3F9EA5C3B8D6}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="User Command Commit" Type="Elemental IO">
@@ -3202,6 +3256,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{F73BA6AA-A0BC-409F-A0BD-69A5820CF1E8}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="User Command Idle" Type="Elemental IO">
@@ -3215,6 +3270,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{D9C94900-EE95-4D00-9A6E-46E4E4F70D85}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="User Data 0" Type="Elemental IO">
@@ -3231,6 +3287,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{8BB24607-874F-40CD-A622-031C696E6691}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="User Data 1" Type="Elemental IO">
@@ -3247,6 +3304,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{4C211D1B-A366-423E-A64A-813C22BB7F95}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="User Command Status" Type="Elemental IO">
@@ -3260,6 +3318,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{3FF77CEF-3BD1-4D73-AB40-2425196D908B}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="User Return" Type="Elemental IO">
@@ -3273,6 +3332,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{2A6AE9B9-1533-4D1C-AB68-B78EBF4ACEBF}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="User Error" Type="Elemental IO">
@@ -3286,6 +3346,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{23493EA4-07D1-409E-85A0-59E3A04B9567}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AI 0 N-1" Type="Elemental IO">
@@ -3299,6 +3360,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{70381CD4-2D42-4429-9E6D-5A7A7F39C78C}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AI 0 N" Type="Elemental IO">
@@ -3312,6 +3374,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{040795D8-CB83-43A3-AD4F-AD751BDB4857}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AI 1 N-1" Type="Elemental IO">
@@ -3325,6 +3388,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{AF83F6F7-263A-42B7-80FC-5708B3AC3452}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AI 1 N" Type="Elemental IO">
@@ -3338,6 +3402,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{87418CF9-8DFD-4A45-B3F2-26B8F6AB6585}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AO 0 N-3" Type="Elemental IO">
@@ -3354,6 +3419,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{69484C96-0645-4658-9F56-939AD1AB5013}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AO 0 N-2" Type="Elemental IO">
@@ -3370,6 +3436,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{1CD97F7F-C0D0-4A72-A4B1-F66FABF362B2}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AO 0 N-1" Type="Elemental IO">
@@ -3386,6 +3453,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{28EB00F4-1709-47D3-AD67-1888A14C083A}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AO 0 N" Type="Elemental IO">
@@ -3402,6 +3470,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{7C1A0069-469C-496C-81CF-7C534E64F9D8}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AO 1 N-3" Type="Elemental IO">
@@ -3418,6 +3487,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{9B18A684-DEBD-44ED-94F0-318CECE64999}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AO 1 N-2" Type="Elemental IO">
@@ -3434,6 +3504,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{E772A9B8-B348-4C4C-AE5B-8AA3C1B1EB84}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AO 1 N-1" Type="Elemental IO">
@@ -3450,6 +3521,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{92839CA8-FD81-430C-AEA1-E070BF13A5DD}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AO 1 N" Type="Elemental IO">
@@ -3466,6 +3538,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{0A1E97A3-51D0-430E-AC19-01027169A229}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AO Data Sync" Type="Elemental IO">
@@ -3482,6 +3555,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{F67735B7-1D15-482C-8058-6A61FD50ECE4}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 0 WE" Type="Elemental IO">
@@ -3498,6 +3572,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{ADF7B8B7-0E06-45B7-B9BA-7D54FE3EDAC6}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 0 Rd Data" Type="Elemental IO">
@@ -3511,6 +3586,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{25AA87BC-1592-4364-82F5-B069029C1335}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 0 Wr Data" Type="Elemental IO">
@@ -3527,6 +3603,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{05B064EE-B3A8-47D7-9848-E7D5C1A8090E}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 1 WE" Type="Elemental IO">
@@ -3543,6 +3620,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{0AD4479C-CAD4-422A-9213-4CEE75BC5E8C}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 1 Rd Data" Type="Elemental IO">
@@ -3556,6 +3634,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{5B799612-6BF1-42CC-8289-5CC0A94DA0E0}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 1 Wr Data" Type="Elemental IO">
@@ -3572,6 +3651,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{E6F3040C-338F-4DC5-BD7F-CC4B61EC6A28}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 2 WE" Type="Elemental IO">
@@ -3588,6 +3668,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{9FB775A7-6B1C-4146-843D-12C9536DB5FB}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 2 Rd Data" Type="Elemental IO">
@@ -3601,6 +3682,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{8198F880-D0D1-4326-8CA1-20C68F2501B5}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 2 Wr Data" Type="Elemental IO">
@@ -3617,6 +3699,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{8A5889E6-14CB-4BDE-98E3-80B6B18BE26A}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 3 WE" Type="Elemental IO">
@@ -3633,6 +3716,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{E673DAC1-4D9A-46FC-BABC-77F2665406F1}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 3 Rd Data" Type="Elemental IO">
@@ -3646,6 +3730,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{8FD76883-8A21-4EA2-A278-5B950FD51ADC}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI 3 Wr Data" Type="Elemental IO">
@@ -3662,6 +3747,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{DC9F3236-60ED-4476-83F3-8CBC74616C38}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="DIO Port 1 WE" Type="Elemental IO">
@@ -3678,6 +3764,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{ED3A74E7-4DAA-4CF4-921D-4248E7E7D67B}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="DIO Port 1 Rd Data" Type="Elemental IO">
@@ -3691,6 +3778,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{5919130F-D733-475A-B212-A0E510992DFA}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="DIO Port 1 Wr Data" Type="Elemental IO">
@@ -3707,6 +3795,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{41C58B37-B28D-4213-BF17-E7A32F451B34}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="DIO Port 0 WE" Type="Elemental IO">
@@ -3723,6 +3812,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{4C88DC9D-B8CB-4788-9D46-A2A6F4A96FA7}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="DIO Port 0 Rd Data" Type="Elemental IO">
@@ -3736,6 +3826,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{7D82A325-9B75-4583-9B0E-964521A17E22}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="DIO Port 0 Wr Data" Type="Elemental IO">
@@ -3752,6 +3843,7 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{A504643E-A87B-4CEF-B429-0EA0C78992DD}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PLL Locked" Type="Elemental IO">
@@ -3765,10 +3857,12 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{8B77D337-15FD-4F57-8A32-2AA61F7BDDEF}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Data Clock x2" Type="FPGA Component Level IP Clock">
 					<Property Name="FPGA.PersistentID" Type="Str">{371C67F2-5856-48FC-B3A3-168A205F0A48}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.ClipClock.ExtendedName" Type="Str">IO Module/Data Clock x2</Property>
 					<Property Name="NI.LV.ClipClock.UsersVhdlClockName" Type="Str">Data Clock x2</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=IO ModuleA_AData Clock x2;TopSignalConnect=IO_ModuleA_AIoModDataClockX2;ClockSignalName=IO_ModuleA_AIoModDataClockX2;MinFreq=125000000.000000;MaxFreq=250000000.000000;VariableFreq=0;NomFreq=250000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=45.000000;MaxDutyCycle=55.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
@@ -3789,8 +3883,11 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
 				</Item>
 			</Item>
 			<Item Name="IP Builder" Type="IP Builder Target">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="Dependencies" Type="Dependencies"/>
-				<Item Name="Build Specifications" Type="Build"/>
+				<Item Name="Build Specifications" Type="Build">
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
+				</Item>
 			</Item>
 			<Item Name="Lidar Master V5.1.vi" Type="VI" URL="../FPGA/Lidar Master V5.1.vi">
 				<Property Name="configString.guid" Type="Str">{040795D8-CB83-43A3-AD4F-AD751BDB4857}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/AI 0 N;0;ReadMethodType=I16{05B064EE-B3A8-47D7-9848-E7D5C1A8090E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 0 Wr Data;0;WriteMethodType=bool{06124FB4-FA32-42F6-9B52-B70866869735}NumberOfSyncRegistersForReadInProject=Auto;resource=/Board IO/Clock100 PLL Unlocked;0;ReadMethodType=bool{0623BA01-85B7-4E05-8A80-EDC28713C653}NumberOfSyncRegistersForReadInProject=Auto;resource=/Board IO/Device Temperature;0;ReadMethodType=i8{0A1E97A3-51D0-430E-AC19-01027169A229}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/AO 1 N;0;WriteMethodType=I16{0AD4479C-CAD4-422A-9213-4CEE75BC5E8C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 1 WE;0;WriteMethodType=bool{0C550EF5-8CF6-4837-B461-3290E03ECE2D}ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{12CB8A2A-54C0-4E45-80DF-E9253406AC23}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Initialization Done;0;ReadMethodType=bool{1CD97F7F-C0D0-4A72-A4B1-F66FABF362B2}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/AO 0 N-2;0;WriteMethodType=I16{226D51DC-79DF-41A2-9847-6753D0A43A35}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig5;0;ReadMethodType=bool;WriteMethodType=bool{23493EA4-07D1-409E-85A0-59E3A04B9567}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Error;0;ReadMethodType=U8{25AA87BC-1592-4364-82F5-B069029C1335}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 0 Rd Data;0;ReadMethodType=bool{28EB00F4-1709-47D3-AD67-1888A14C083A}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/AO 0 N-1;0;WriteMethodType=I16{2A6AE9B9-1533-4D1C-AB68-B78EBF4ACEBF}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Return;0;ReadMethodType=U16{2AB4FEFC-1B1B-4CF2-8FF8-4378126FE801}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Trigger Input;0;ReadMethodType=bool{308DAAFE-6F74-4655-9C1C-36EE4B5A39D7}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{32FF9722-A689-491F-A90A-D3361CBD8E5E}NumberOfSyncRegistersForReadInProject=0;resource=/PXIe/PXIe_Sync100;0;ReadMethodType=bool{35752B2D-8828-45E4-8CA4-C6B34688D14C}NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Clk10;0;ReadMethodType=bool{371C67F2-5856-48FC-B3A3-168A205F0A48}ResourceName=IO ModuleA_AData Clock x2;TopSignalConnect=IO_ModuleA_AIoModDataClockX2;ClockSignalName=IO_ModuleA_AIoModDataClockX2;MinFreq=125000000.000000;MaxFreq=250000000.000000;VariableFreq=0;NomFreq=250000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=45.000000;MaxDutyCycle=55.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{3A08FCC1-D68A-4D91-A66B-EEA3D4920A24}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module Status/IO Module Present;0;ReadMethodType=bool{3FF77CEF-3BD1-4D73-AB40-2425196D908B}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Command Status;0;ReadMethodType=U8{40389CEA-920E-4378-B019-0473456BA092}NumberOfSyncRegistersForReadInProject=Auto;resource=/PXIe/PXIe_DStarB;0;ReadMethodType=bool{41C58B37-B28D-4213-BF17-E7A32F451B34}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DIO Port 1 Wr Data;0;WriteMethodType=U8{45A11820-C798-4F31-A1C1-401813EED322}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{45E92AF0-BFD8-46A2-AFAC-5091A4472538}NumberOfSyncRegistersForReadInProject=Auto;resource=/Board IO/Device 12V Power;0;ReadMethodType=u16{4C211D1B-A366-423E-A64A-813C22BB7F95}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Data 1;0;WriteMethodType=U8{4C88DC9D-B8CB-4788-9D46-A2A6F4A96FA7}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DIO Port 0 WE;0;WriteMethodType=bool{4D744A0A-A99C-47F2-8E16-383CD8B319E0}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module Status/IO Module IO Enabled;0;ReadMethodType=bool{52DA40EB-634E-4C37-9E6D-370E63FB4933}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig4;0;ReadMethodType=bool;WriteMethodType=bool{56437BE7-3012-4517-8325-0C7CC0704148}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Idle;0;ReadMethodType=bool{5908DF4A-13FE-48DC-B609-7103B445D8A6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write;0;WriteMethodType=bool{5919130F-D733-475A-B212-A0E510992DFA}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DIO Port 1 Rd Data;0;ReadMethodType=U8{59CD32FA-8031-45BA-AE48-86AF81347DFB}Actual Number of Elements=200;ReadArbs=1;WriteArbs=1;Implementation=1;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=0{5B799612-6BF1-42CC-8289-5CC0A94DA0E0}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 1 Rd Data;0;ReadMethodType=bool{5C663F84-0C6F-426D-8FA7-0E0946913971}NumberOfSyncRegistersForReadInProject=Auto;resource=/Board IO/Device 3.3V Power;0;ReadMethodType=u16{5DD1BE70-A09C-46DF-99DA-9FD345477A95}"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{6417C350-2905-4F73-95E2-77CBAAE3B21E}"ControlLogic=1;NumberOfElements=514;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=100080000000000100094006000355313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{6513D67D-CB9D-47A3-9EB6-353B70488F59}"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=100080000000000100094006000355313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{66C98CA4-CA5B-4302-A611-B951A6B31D5F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXIe/PXIe_DStarC;0;ReadMethodType=bool;WriteMethodType=bool{67DA878B-1FD6-4123-ADFC-69CA598D05FB}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module Status/IO Module Power Enabled;0;ReadMethodType=bool{69484C96-0645-4658-9F56-939AD1AB5013}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/AO 0 N-3;0;WriteMethodType=I16{70381CD4-2D42-4429-9E6D-5A7A7F39C78C}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/AI 0 N-1;0;ReadMethodType=I16{73E3F647-A1AF-49B7-B092-CBCC50A43C65}ResourceName=PXI Clk10 MHz Clock;TopSignalConnect=PxiClk10;ClockSignalName=PxiClk10;MinFreq=10000000.000000;MaxFreq=10000000.000000;VariableFreq=0;NomFreq=10000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{77650105-585E-4711-952D-3E1A92D90D0E}2ca82332f232b67e81ba3dd202d1505853843acc4ba81b13c4f984c05ef5379a71f5b2ba50867896e362912684851ac79a237d0da38727a4f07bb5c5ab458e1aa849e3499ab4b3590b03f713416c0f70bd561649c8df741c3479ffbfc53d8f2bf8177775df6b9ed01c85e3515baf448f&lt;Array&gt;
@@ -9485,6 +9582,7 @@ P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple R
 			</Item>
 			<Item Name="PXI Clk10 MHz Clock" Type="FPGA Base Clock">
 				<Property Name="FPGA.PersistentID" Type="Str">{73E3F647-A1AF-49B7-B092-CBCC50A43C65}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=PXI Clk10 MHz Clock;TopSignalConnect=PxiClk10;ClockSignalName=PxiClk10;MinFreq=10000000.000000;MaxFreq=10000000.000000;VariableFreq=0;NomFreq=10000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">PxiClk10</Property>
@@ -12348,6 +12446,7 @@ P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple R
 			</Item>
 			<Item Name="100 MHz Clock" Type="FPGA Base Clock">
 				<Property Name="FPGA.PersistentID" Type="Str">{977887FB-2D88-4F24-BF8E-67C942172548}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=100 MHz Clock;TopSignalConnect=PxieClk100;ClockSignalName=PxieClk100;MinFreq=100000000.000000;MaxFreq=100000000.000000;VariableFreq=0;NomFreq=100000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">PxieClk100</Property>
@@ -12408,6 +12507,7 @@ P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple R
 				</Item>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="Timing Tester master" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -12436,6 +12536,7 @@ P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple R
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/FPGA Bitfiles/GMLIDARV5.1_Master_TimingTestermast_BSVpvPZHDb8.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMLIDARV5.1_Master_TimingTestermast_BSVpvPZHDb8.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/GM LIDAR V5.1.lvproj</Property>
@@ -12474,6 +12575,7 @@ P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple R
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/FPGA Bitfiles/GMLIDARV5.1_FPGATarget4_TimingTesterslav_HvfS1JmXd10.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMLIDARV5.1_FPGATarget4_TimingTesterslav_HvfS1JmXd10.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/yuval/Desktop/Testview V5LV15/GM LIDAR V5.1.lvproj</Property>
@@ -12512,6 +12614,7 @@ P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple R
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/FPGA Bitfiles/GMLIDARV5.1_Master_SendP2PFIFOtoAIL_Ku+tpU6eF+Q.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMLIDARV5.1_Master_SendP2PFIFOtoAIL_Ku+tpU6eF+Q.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/GM LIDAR V5.1.lvproj</Property>
@@ -12550,6 +12653,7 @@ P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple R
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/FPGA Bitfiles/GMLIDARV5.1_Master_LidarMasterV5.1_10Sb1bALtuk.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMLIDARV5.1_Master_LidarMasterV5.1_10Sb1bALtuk.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/GM LIDAR V5.1.lvproj</Property>
@@ -12588,6 +12692,7 @@ P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple R
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/FPGA Bitfiles/GMLIDARV5.1_Master_SPIMasterTester_5azVrYsbwao.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMLIDARV5.1_Master_SPIMasterTester_5azVrYsbwao.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/GM LIDAR V5.1.lvproj</Property>
@@ -13344,6 +13449,7 @@ EEPROM Power EnabledNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Modu
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 0;0;WriteMethodType=boolLED 1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 1;0;WriteMethodType=boolLED 2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 2;0;WriteMethodType=boolLED 3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 3;0;WriteMethodType=boolOut FIFO"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"P2PRd"ControlLogic=0;NumberOfElements=37;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2PRd;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"PFI Connector EnableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Connector Enable;0;WriteMethodType=boolPFI InputNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI Input;0;ReadMethodType=U8PFI OutputArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Output;0;WriteMethodType=U8PFI Write EnableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Write Enable;0;WriteMethodType=U8PXI Clk10 MHz ClockResourceName=PXI Clk10 MHz Clock;TopSignalConnect=PxiClk10;ClockSignalName=PxiClk10;MinFreq=10000000.000000;MaxFreq=10000000.000000;VariableFreq=0;NomFreq=10000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;PXI_Clk10NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Clk10;0;ReadMethodType=boolPXI_StarNumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Star;0;ReadMethodType=boolPXI_Trig0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig0;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig1;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig2;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig3;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig4ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig4;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig5ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig5;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig6ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig6;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig7ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig7;0;ReadMethodType=bool;WriteMethodType=boolPXIe_DStarBNumberOfSyncRegistersForReadInProject=Auto;resource=/PXIe/PXIe_DStarB;0;ReadMethodType=boolPXIe_DStarCArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXIe/PXIe_DStarC;0;ReadMethodType=bool;WriteMethodType=boolPXIe_Sync100NumberOfSyncRegistersForReadInProject=0;resource=/PXIe/PXIe_Sync100;0;ReadMethodType=boolPXIe-7972R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7972RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGAReinitializeArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Reinitialize;0;WriteMethodType=boolSample Clock CommitArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Commit;0;WriteMethodType=boolSample Clock SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Select;0;WriteMethodType=U8SignalMemActual Number of Elements=100;ReadArbs=1;WriteArbs=1;Implementation=1;DataType=1000800000000001003C005F03510016000000160001000100000016FFFFFFFFFFFFFFFF000000150000001500000000001FFFFF0000000100000001000000000000000100010000000000000000000000000000;InitDataHash=01169E2BCAB11F68B6B938A4685EF6BD;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=32;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=TRUE;Memory Latency=0Simulated P2P"ControlLogic=1;NumberOfElements=1025;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"SPI AddressArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Address;0;WriteMethodType=U16SPI Device SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Device Select;0;WriteMethodType=U8SPI IdleNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Idle;0;ReadMethodType=boolSPI Read DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Read Data;0;ReadMethodType=U8SPI ReadArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Read;0;WriteMethodType=boolSPI Write DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write Data;0;WriteMethodType=U16SPI WriteArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write;0;WriteMethodType=boolSPI"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"Synthesizer LockedNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Synthesizer Locked;0;ReadMethodType=boolTDC Local AssertArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/TDC IO/TDC Local Assert;0;ReadMethodType=bool;WriteMethodType=boolTDC Local DeassertArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/TDC IO/TDC Local Deassert;0;ReadMethodType=bool;WriteMethodType=boolTDC Pulse Width ValidNumberOfSyncRegistersForReadInProject=Auto;resource=/TDC IO/TDC Pulse Width Valid;0;ReadMethodType=boolTDC Pulse WidthNumberOfSyncRegistersForReadInProject=Auto;resource=/TDC IO/TDC Pulse Width;0;ReadMethodType=u16Trigger InputNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Trigger Input;0;ReadMethodType=bool</Property>
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Property Name="Mode" Type="Int">0</Property>
 			<Property Name="NI.FPGA.79XXR.ConfiguredIOModule" Type="Str">IOModuleID:0x109374C6,Version:14.0.0,National Instruments::NI 5761,SyncClock:CLK10</Property>
 			<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Category" Type="Str">FlexRIO-K7IOModule</Property>
@@ -14019,6 +14125,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 			<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
 			<Item Name="Board IO" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="Clock100 PLL Unlocked" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="NumberOfSyncRegistersForReadInProject">
@@ -14030,6 +14137,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{990607E4-F887-485B-B067-057DBA0B8855}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="Device 3.3V Power" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14042,6 +14150,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{2BCF0D2F-E918-4642-AFD4-6EC610EAA822}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="Device 12V Power" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14054,6 +14163,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{8F55D6BF-4A20-4E98-A57C-CEECE5040AD1}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="Device Temperature" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14066,9 +14176,11 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{DCEC7DAB-F9F4-470E-A161-11BF63E7AE94}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 			</Item>
 			<Item Name="IO Module Status" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="EEPROM Power Enabled" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="NumberOfSyncRegistersForReadInProject">
@@ -14080,6 +14192,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{82A96E05-09EE-49BD-B30B-3C3368FC79B9}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="Expected IO Module ID" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14092,6 +14205,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{8B0B4B90-00DC-413F-9563-B1A2C20ACC18}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="Inserted IO Module ID" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14104,6 +14218,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{F51A5698-A720-4A8A-8664-ABA9B8E92022}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="IO Module IO Enabled" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14116,6 +14231,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{D812A932-C951-403B-A50A-C27054A6D1D6}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="IO Module Power Enabled" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14128,6 +14244,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{3934180C-7FCD-44C6-B73E-584D078AE8B6}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="IO Module Power Good" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14140,6 +14257,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{F67CC8A9-0ACA-4412-B5D9-EEA7BD4ADB81}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="IO Module Present" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14152,9 +14270,11 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{8E2F6F24-F385-47BA-B90B-E482A7268F3B}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 			</Item>
 			<Item Name="PXI" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="PXI_Clk10" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="NumberOfSyncRegistersForReadInProject">
@@ -14166,6 +14286,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{867A7269-12D5-4C37-BDF7-7DF49A7D27B4}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Star" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14178,6 +14299,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{053A6671-9C44-4DF0-B0C1-568763F36BFA}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig0" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14202,6 +14324,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{050F15B5-A0A0-4A33-BAE0-C52EFA98C041}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig1" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14226,6 +14349,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{3FD2DF0B-F64B-4B77-A39F-622EB0CA3E3E}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig2" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14250,6 +14374,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{85833664-4B96-42E0-9821-B435D811D8B5}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig3" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14274,6 +14399,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{2F271110-44A7-4A91-AB2F-B681D4210D9A}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig4" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14298,6 +14424,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{BB9C99E2-927B-4EB1-82CB-91AE30B7E1D0}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig5" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14322,6 +14449,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{53288D0B-DE02-4DBC-BCA8-00A4C0783729}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig6" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14346,6 +14474,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{F7C8A356-06BA-43E8-8A69-FEE4C9EFE825}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXI_Trig7" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14370,9 +14499,11 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{A71F832A-5C04-497E-88C1-E332DD36AA67}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 			</Item>
 			<Item Name="PXIe" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="PXIe_DStarB" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="NumberOfSyncRegistersForReadInProject">
@@ -14384,6 +14515,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{9E80D651-6E3D-4461-B945-3AF1B7853F3D}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXIe_DStarC" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14402,6 +14534,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{5593D564-D10E-488D-947A-60BC05558BE9}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="PXIe_Sync100" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14414,9 +14547,11 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{577CA032-8799-4761-A6AB-CD314030446B}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 			</Item>
 			<Item Name="Resources" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="P2PRd" Type="FPGA FIFO">
 					<Property Name="Actual Number of Elements" Type="UInt">37</Property>
 					<Property Name="Arbitration for Read" Type="UInt">1</Property>
@@ -14430,6 +14565,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Property Name="fifo.valid" Type="Bool">true</Property>
 					<Property Name="fifo.version" Type="Int">12</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{CE1D3A55-5EDD-42DF-AAB4-FCCDA319EBC3}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Local" Type="Bool">false</Property>
 					<Property Name="Memory Type" Type="UInt">2</Property>
 					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
@@ -14451,6 +14587,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Property Name="fifo.valid" Type="Bool">true</Property>
 					<Property Name="fifo.version" Type="Int">12</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{7FE0744D-2A7C-404B-B4A0-FA2E6F456F1F}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Local" Type="Bool">false</Property>
 					<Property Name="Memory Type" Type="UInt">2</Property>
 					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
@@ -14472,6 +14609,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Property Name="fifo.valid" Type="Bool">true</Property>
 					<Property Name="fifo.version" Type="Int">12</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{8310A6DA-C766-4E1A-8725-E7B68DF881D7}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Local" Type="Bool">false</Property>
 					<Property Name="Memory Type" Type="UInt">2</Property>
 					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
@@ -14493,6 +14631,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Property Name="fifo.valid" Type="Bool">true</Property>
 					<Property Name="fifo.version" Type="Int">12</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{26865439-147D-4077-B7AC-CD3527C5E9DA}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Local" Type="Bool">false</Property>
 					<Property Name="Memory Type" Type="UInt">2</Property>
 					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
@@ -14514,6 +14653,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Property Name="fifo.valid" Type="Bool">true</Property>
 					<Property Name="fifo.version" Type="Int">12</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{1A5AB273-C7D2-46E5-87AB-A2E6B1CD3749}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Local" Type="Bool">false</Property>
 					<Property Name="Memory Type" Type="UInt">2</Property>
 					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
@@ -14525,6 +14665,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 				<Item Name="SignalMem" Type="FPGA Memory Block">
 					<Property Name="FPGA.PersistentID" Type="Str">{2CAA6F6A-C3C6-4C02-9B1C-5737E2C05EB8}</Property>
 					<Property Name="fullEmulation" Type="Bool">false</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Memory Latency" Type="UInt">0</Property>
 					<Property Name="Multiple Clock Domains" Type="Bool">true</Property>
 					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=100;ReadArbs=1;WriteArbs=1;Implementation=1;DataType=1000800000000001003C005F03510016000000160001000100000016FFFFFFFFFFFFFFFF000000150000001500000000001FFFFF0000000100000001000000000000000100010000000000000000000000000000;InitDataHash=01169E2BCAB11F68B6B938A4685EF6BD;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=32;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=TRUE;Memory Latency=0</Property>
@@ -14559,6 +14700,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Property Name="fifo.valid" Type="Bool">true</Property>
 					<Property Name="fifo.version" Type="Int">12</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{A095B14E-8122-4DD4-8FFC-EA059AA265BD}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="Local" Type="Bool">false</Property>
 					<Property Name="Memory Type" Type="UInt">2</Property>
 					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
@@ -14569,6 +14711,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 				</Item>
 			</Item>
 			<Item Name="TDC IO" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="TDC Local Assert" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
@@ -14586,6 +14729,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{E85DDCBE-A2FB-4324-A7A7-CDA0B2AA15CE}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="TDC Local Deassert" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14604,6 +14748,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{3AE43B44-FB68-4524-A31B-4EDD8A2712C9}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="TDC Pulse Width" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14616,6 +14761,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{41E86E53-5C49-49FB-B80A-3129A1991926}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 				<Item Name="TDC Pulse Width Valid" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14628,10 +14774,12 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{C1324A66-618A-4475-BEF1-AB84FEBE2277}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 				</Item>
 			</Item>
 			<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
 				<Property Name="FPGA.PersistentID" Type="Str">{5F9FB9B4-F2AD-490F-BEA7-574BD60F5887}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">Clk40</Property>
@@ -14649,6 +14797,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 				<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 				<Item Name="130MHz" Type="FPGA Derived Clock">
 					<Property Name="FPGA.PersistentID" Type="Str">{20967A4B-BA23-48CC-8BAB-FCD1E2F1237E}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig" Type="Str">Multiplier=13.000000;Divisor=4.000000</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig.Divisor" Type="Dbl">4</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig.FromExternalClock" Type="Bool">false</Property>
@@ -14659,6 +14808,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 				</Item>
 				<Item Name="80MHz" Type="FPGA Derived Clock">
 					<Property Name="FPGA.PersistentID" Type="Str">{9FB4F7C3-ECFB-4451-AE22-5736B82D5BD3}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig" Type="Str">Multiplier=2.000000;Divisor=1.000000</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig.Divisor" Type="Dbl">1</Property>
 					<Property Name="NI.LV.FPGA.DerivedConfig.FromExternalClock" Type="Bool">false</Property>
@@ -14670,6 +14820,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			</Item>
 			<Item Name="200 MHz Clock" Type="FPGA Base Clock">
 				<Property Name="FPGA.PersistentID" Type="Str">{5D413D01-DAAA-4C21-8881-063E78EF17C0}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">PllClk200</Property>
@@ -14688,6 +14839,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			</Item>
 			<Item Name="DRAM Bank 0" Type="FPGA Component Level IP">
 				<Property Name="FPGA.PersistentID" Type="Str">{A930A445-290B-4171-9197-016BFFC23E2B}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str"></Property>
 				<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">true</Property>
 				<Property Name="NI.LV.CLIP.SocketSelection" Type="Str">FlexRIO-DRAMTypeC-Bank0</Property>
@@ -14884,6 +15036,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			</Item>
 			<Item Name="IO Module" Type="FPGA Component Level IP">
 				<Property Name="FPGA.PersistentID" Type="Str">{28F02DCB-8BC8-4AFC-B220-E5F5414CECA4}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.FPGA.79XXR.NormalizeCLIPPath" Type="Str">true</Property>
 				<Property Name="NI.LV.CLIP.ClockConnections" Type="Xml">
 <CLIPConnections>
@@ -15121,6 +15274,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{C5AD404F-25D8-48B4-AE75-DF8912C9347C}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Address" Type="Elemental IO">
@@ -15137,6 +15291,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{65379931-F756-4AD0-859B-D32518184048}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Read Data" Type="Elemental IO">
@@ -15150,6 +15305,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{2171083A-3183-4222-B5C9-302BFCB3E594}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Write Data" Type="Elemental IO">
@@ -15166,6 +15322,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{A6AF051D-2699-4DCD-B2BF-10EF7B577F04}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Read" Type="Elemental IO">
@@ -15182,6 +15339,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{62E794B3-803A-4989-8DAE-104800152410}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Write" Type="Elemental IO">
@@ -15198,6 +15356,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{3ED9F1AA-AF94-4841-86D4-2D6BD7E482CF}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Trigger Input" Type="Elemental IO">
@@ -15211,6 +15370,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{03127110-A0BF-4670-A2DE-8F7480B7FC4E}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Initialization Done" Type="Elemental IO">
@@ -15224,10 +15384,12 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{3D886F03-4DEF-4008-9C65-B3BED20860F0}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Data Clock" Type="FPGA Component Level IP Clock">
 					<Property Name="FPGA.PersistentID" Type="Str">{5A96BCB1-F0AF-4E51-B289-889CE51AD894}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.ClipClock.ExtendedName" Type="Str">IO Module/Data Clock</Property>
 					<Property Name="NI.LV.ClipClock.UsersVhdlClockName" Type="Str">Data Clock</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=IO ModuleA_AData Clock;TopSignalConnect=IO_ModuleA_AIoModDataClock;ClockSignalName=IO_ModuleA_AIoModDataClock;MinFreq=82500000.000000;MaxFreq=125000000.000000;VariableFreq=0;NomFreq=125000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=45.000000;MaxDutyCycle=55.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
@@ -15257,6 +15419,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{E0095CE4-ABA5-47D1-B9DC-A0884698370D}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AI 0 Data N" Type="Elemental IO">
@@ -15270,6 +15433,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{D5F24D55-1993-4C91-A6B2-A235412FC2E7}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AI 1 Data N-1" Type="Elemental IO">
@@ -15283,6 +15447,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{59979EF0-B8F1-49E8-96F3-F9C7E2FCEFD0}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AI 1 Data N" Type="Elemental IO">
@@ -15296,6 +15461,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{7870C573-581D-49F5-BCAD-CA75420B06D9}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AI 2 Data N-1" Type="Elemental IO">
@@ -15309,6 +15475,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{B4A0EFB6-7910-490F-9221-07F7CD0BA453}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AI 2 Data N" Type="Elemental IO">
@@ -15322,6 +15489,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{E141F536-6E41-42C9-A6CA-C2642D5804E6}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AI 3 Data N-1" Type="Elemental IO">
@@ -15335,6 +15503,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{44691304-2654-4DC8-8D1B-BFF913C97931}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="AI 3 Data N" Type="Elemental IO">
@@ -15348,6 +15517,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{CEE43A9C-0E31-46BC-986C-7AB8F1E17439}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Reinitialize" Type="Elemental IO">
@@ -15364,6 +15534,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{144263C9-0A8F-46E2-81A2-BFD27851DC42}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Configuration Error" Type="Elemental IO">
@@ -15377,6 +15548,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{FC4B1FD4-5AEC-4893-8734-B9D43F833E1F}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Synthesizer Locked" Type="Elemental IO">
@@ -15390,6 +15562,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{0EBD3674-8495-4FAF-A03E-403B09F490FB}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Sample Clock Select" Type="Elemental IO">
@@ -15406,6 +15579,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{5551F269-2478-4BF9-93AC-408FDA98798B}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Sample Clock Commit" Type="Elemental IO">
@@ -15422,6 +15596,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{CCF7FB83-48BC-41E1-B869-DEC5EA652711}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="LED 0" Type="Elemental IO">
@@ -15438,6 +15613,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{64C0449B-B60E-4A72-8467-676E35F5C872}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="LED 1" Type="Elemental IO">
@@ -15454,6 +15630,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{CD414459-9039-45BF-8678-BC9C887ED460}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="LED 2" Type="Elemental IO">
@@ -15470,6 +15647,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{91F018F7-AD6A-4ED5-B5FA-9B7A7764C995}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="LED 3" Type="Elemental IO">
@@ -15486,6 +15664,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{775088D1-7B95-4EC9-8C64-E9027AB0C0D2}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI Input" Type="Elemental IO">
@@ -15499,6 +15678,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{35A75901-5704-436B-BEA6-8C3E231A910A}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI Output" Type="Elemental IO">
@@ -15515,6 +15695,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{BAEC8F16-B0BE-4F04-9F3A-4DBCB4B3ABE7}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI Write Enable" Type="Elemental IO">
@@ -15531,6 +15712,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{2F27D5AF-FEF0-45CC-9A7F-6AE93962117A}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="PFI Connector Enable" Type="Elemental IO">
@@ -15547,6 +15729,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{73594B20-4353-42B6-ADF2-74184900F0DF}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 				<Item Name="SPI Device Select" Type="Elemental IO">
@@ -15563,12 +15746,16 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 </AttributeSet>
 </Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{C6D843D3-F68A-4B07-8B13-3E03DC564FDC}</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 				</Item>
 			</Item>
 			<Item Name="IP Builder" Type="IP Builder Target">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="Dependencies" Type="Dependencies"/>
-				<Item Name="Build Specifications" Type="Build"/>
+				<Item Name="Build Specifications" Type="Build">
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
+				</Item>
 			</Item>
 			<Item Name="LIDAR slave V5.1.vi" Type="VI" URL="../FPGA/LIDAR slave V5.1.vi">
 				<Property Name="configString.guid" Type="Str">{03127110-A0BF-4670-A2DE-8F7480B7FC4E}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Trigger Input;0;ReadMethodType=bool{050F15B5-A0A0-4A33-BAE0-C52EFA98C041}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig0;0;ReadMethodType=bool;WriteMethodType=bool{053A6671-9C44-4DF0-B0C1-568763F36BFA}NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Star;0;ReadMethodType=bool{0EBD3674-8495-4FAF-A03E-403B09F490FB}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Synthesizer Locked;0;ReadMethodType=bool{144263C9-0A8F-46E2-81A2-BFD27851DC42}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Reinitialize;0;WriteMethodType=bool{1A5AB273-C7D2-46E5-87AB-A2E6B1CD3749}"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{20967A4B-BA23-48CC-8BAB-FCD1E2F1237E}Multiplier=13.000000;Divisor=4.000000{2171083A-3183-4222-B5C9-302BFCB3E594}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Read Data;0;ReadMethodType=U8{26865439-147D-4077-B7AC-CD3527C5E9DA}"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{28F02DCB-8BC8-4AFC-B220-E5F5414CECA4}5a5fd57816f44686b3f544256ec0fbb5IOModuleID:0x109374C6,Version:14.0.0,National Instruments::NI 5761,SyncClock:CLK1003e17bb7f48b725ea9ee17fb5c783cb52aab3bf4d4a5e8bbc9923283b5f722ae34423e9dcbf52e0fb27a3cbe3f07d2873688a0fa7b1a77c04b7e33883f6786cb7bd5ef002755b34a6f1a0e3a069e79b086ba33a6ac7f711089efe48b78f34e92&lt;Array&gt;
@@ -23015,6 +23202,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			</Item>
 			<Item Name="PXI Clk10 MHz Clock" Type="FPGA Base Clock">
 				<Property Name="FPGA.PersistentID" Type="Str">{3D1F5D83-59F2-4D8C-95ED-DD21096E7D39}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=PXI Clk10 MHz Clock;TopSignalConnect=PxiClk10;ClockSignalName=PxiClk10;MinFreq=10000000.000000;MaxFreq=10000000.000000;VariableFreq=0;NomFreq=10000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">PxiClk10</Property>
@@ -24522,6 +24710,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			</Item>
 			<Item Name="100 MHz Clock" Type="FPGA Base Clock">
 				<Property Name="FPGA.PersistentID" Type="Str">{5EB1FE1E-90A4-417B-B9BB-BB183035CAEE}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=100 MHz Clock;TopSignalConnect=PxieClk100;ClockSignalName=PxieClk100;MinFreq=100000000.000000;MaxFreq=100000000.000000;VariableFreq=0;NomFreq=100000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">PxieClk100</Property>
@@ -24547,6 +24736,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 				</Item>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="Timing Tester master" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -24575,6 +24765,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/FPGA Bitfiles/GMLIDARV5.1_FPGATarget3_TimingTestermast_9vbPXIGwLeY.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMLIDARV5.1_FPGATarget3_TimingTestermast_9vbPXIGwLeY.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/yuval/Desktop/Testview V5LV15/GM LIDAR V5.1.lvproj</Property>
@@ -24613,6 +24804,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/FPGA Bitfiles/GMLIDARV5.1_Slave_TimingTesterslav_7ZC0ePWmfic.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMLIDARV5.1_Slave_TimingTesterslav_7ZC0ePWmfic.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/GM LIDAR V5.1.lvproj</Property>
@@ -24651,6 +24843,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/FPGA Bitfiles/GMLIDARV5.1_Slave_LIDARslaveV5.1_3P3kMDqObeA.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMLIDARV5.1_Slave_LIDARslaveV5.1_3P3kMDqObeA.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/GM LIDAR V5.1.lvproj</Property>
@@ -24689,6 +24882,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/FPGA Bitfiles/GMLIDARV5.1_Slave_TestP2PSlave_A-LxR9S+pRs.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMLIDARV5.1_Slave_TestP2PSlave_A-LxR9S+pRs.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/GM LIDAR V5.1.lvproj</Property>
@@ -24727,6 +24921,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/FPGA Bitfiles/GMLIDARV5.1_Slave_SPISlaveTester_q7HRbOfV27s.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMLIDARV5.1_Slave_SPISlaveTester_q7HRbOfV27s.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/GM LIDAR V5.1.lvproj</Property>
@@ -25699,6 +25894,7 @@ P2PRd"ControlLogic=0;NumberOfElements=37;Type=3;ReadArbs=Arbitrate if Multiple R
 		<Item Name="FpgaMasterRef Typedef.ctl" Type="VI" URL="../Controls/FpgaMasterRef Typedef.ctl"/>
 		<Item Name="Send datagram over udp.vi" Type="VI" URL="../RT/Send datagram over udp.vi"/>
 		<Item Name="Send datagram over TCP.vi" Type="VI" URL="../RT/Send datagram over TCP.vi"/>
+		<Item Name="Cast FXP to I32.vi" Type="VI" URL="../RT/Cast FXP to I32.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -25722,12 +25918,13 @@ P2PRd"ControlLogic=0;NumberOfElements=37;Type=3;ReadArbs=Arbitrate if Multiple R
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Send P2P FIFO to AI Loop.vi" Type="VI" URL="../FPGA/Send P2P FIFO to AI Loop.vi"/>
-			<Item Name="Master Configure Clock.vi" Type="VI" URL="../FPGA/Master Configure Clock.vi"/>
 			<Item Name="Slave Configure Clock.vi" Type="VI" URL="../FPGA/Slave Configure Clock.vi"/>
 			<Item Name="LidarMasterV5.1.4.lvbitx" Type="Document" URL="../FPGA Bitfiles/LidarMasterV5.1.4.lvbitx"/>
 			<Item Name="LidarSlaveV5.1.4.lvbitx" Type="Document" URL="../FPGA Bitfiles/LidarSlaveV5.1.4.lvbitx"/>
+			<Item Name="Master Configure Clock.vi" Type="VI" URL="../FPGA/Master Configure Clock.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="Lidar 5.2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{67080BE3-9FC8-4045-8AE8-468BE5A974D0}</Property>
@@ -25744,7 +25941,7 @@ P2PRd"ControlLogic=0;NumberOfElements=37;Type=3;ReadArbs=Arbitrate if Multiple R
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{313FCC57-94A8-433A-BD27-76B084B5B79D}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">35</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Lidar V5.2.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Lidar V5.2.exe</Property>
@@ -25755,6 +25952,7 @@ P2PRd"ControlLogic=0;NumberOfElements=37;Type=3;ReadArbs=Arbitrate if Multiple R
 				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="Source[0].itemID" Type="Str">{4DA9E676-4DAC-4403-9F9A-C1BD84954B9A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
