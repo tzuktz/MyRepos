@@ -1,0 +1,20 @@
+Command line:
+   FractionalDecimationV1_32E6E7BD4592400F8F516B455C8A0681.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Thu Oct 29 11:08:30 2015
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 2266.64 Meg
+
+ Total Signals          : 261
+ Total Nets             : 3427
+ Total Signal Drivers   : 123
+ Total Blocks           : 22
+ Total Primitive Blocks : 7
+ Total Processes        : 52
+ Total Traceable Variables  : 306
+ Total Scalar Nets and Variables : 38388
