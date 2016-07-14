@@ -25895,6 +25895,7 @@ P2PRd"ControlLogic=0;NumberOfElements=37;Type=3;ReadArbs=Arbitrate if Multiple R
 		<Item Name="Send datagram over udp.vi" Type="VI" URL="../RT/Send datagram over udp.vi"/>
 		<Item Name="Send datagram over TCP.vi" Type="VI" URL="../RT/Send datagram over TCP.vi"/>
 		<Item Name="Cast FXP to I32.vi" Type="VI" URL="../RT/Cast FXP to I32.vi"/>
+		<Item Name="Lidar send UDP Frame.vi" Type="VI" URL="../RT/Lidar send UDP Frame.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -25941,7 +25942,7 @@ P2PRd"ControlLogic=0;NumberOfElements=37;Type=3;ReadArbs=Arbitrate if Multiple R
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{313FCC57-94A8-433A-BD27-76B084B5B79D}</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">36</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Lidar V5.2.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Lidar V5.2.exe</Property>
