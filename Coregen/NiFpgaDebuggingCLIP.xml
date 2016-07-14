@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<CLIPDeclaration Name="NiFpgaDebuggingCLIP">
+	<FormatVersion>1.1</FormatVersion>
+	<HDLName>NiFpgaDebuggingCLIP</HDLName>
+	<ImplementationList>
+		<Path>NiFpgaDebuggingCLIP.vhd</Path>
+		<Path>NiFpgaBoundaryScanInterface\NiFpgaBscanInterface.vhd</Path>
+		<Path>NiFpgaBoundaryScanInterface\Virtex5\PkgNiFpgaBscanInterface.vhd</Path>
+		<Path>icon.ngc</Path>
+		<Path>ila.ngc</Path>
+	</ImplementationList>
+	<InterfaceList>
+		<Interface Name="LabVIEW0">
+			<InterfaceType>LabVIEW</InterfaceType>
+			<SignalList>
+				<Signal Name="TCK">
+					<HDLName>TCK</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+				</Signal>
+				<Signal Name="TMS">
+					<HDLName>TMS</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+				</Signal>
+				<Signal Name="TDI">
+					<HDLName>TDI</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+				</Signal>
+				<Signal Name="TDO">
+					<HDLName>TDO</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+				</Signal>
+				<Signal Name="clk">
+					<HDLName>clk</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>clock</SignalType>
+					<FreqInHertz>
+						<Max>40M</Max>
+						<Min>40M</Min>
+					</FreqInHertz>
+				</Signal>
+				<Signal Name="trig_out">
+					<HDLName>trig_out</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+				</Signal>
+				<Signal Name="trig0">
+					<HDLName>trig0</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>clk</RequiredClockDomain>
+				</Signal>
+				<Signal Name="trig1">
+					<HDLName>trig1</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>clk</RequiredClockDomain>
+				</Signal>
+				<Signal Name="trig2">
+					<HDLName>trig2</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>clk</RequiredClockDomain>
+				</Signal>
+				<Signal Name="trig3">
+					<HDLName>trig3</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>clk</RequiredClockDomain>
+				</Signal>
+				<Signal Name="trig4">
+					<HDLName>trig4</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>clk</RequiredClockDomain>
+				</Signal>
+				<Signal Name="trig5">
+					<HDLName>trig5</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>clk</RequiredClockDomain>
+				</Signal>
+				<Signal Name="trig6">
+					<HDLName>trig6</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>clk</RequiredClockDomain>
+				</Signal>
+				<Signal Name="trig7">
+					<HDLName>trig7</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>clk</RequiredClockDomain>
+				</Signal>
+				<Signal Name="trig8">
+					<HDLName>trig8</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>clk</RequiredClockDomain>
+				</Signal>
+				<Signal Name="trig9">
+					<HDLName>trig9</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>clk</RequiredClockDomain>
+				</Signal>
+				<Signal Name="trig10">
+					<HDLName>trig10</HDLName>
+					<Datatype>
+						<Boolean/>
+					</Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>clk</RequiredClockDomain>
+				</Signal>
+
+			</SignalList>
+		</Interface>
+	</InterfaceList>
+</CLIPDeclaration>
