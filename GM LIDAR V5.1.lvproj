@@ -11521,10 +11521,6 @@ P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple R
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="niFPGA Boolean Crossing.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/analysis/control/nonlinear/niFPGA Boolean Crossing.vi"/>
 				</Item>
-				<Item Name="FPGA Nain State.ctl" Type="VI" URL="../Controls/FPGA Nain State.ctl"/>
-				<Item Name="AO FIFO control.vi" Type="VI" URL="../FPGA/AO FIFO control.vi"/>
-				<Item Name="LIDAR V2 Globals.vi" Type="VI" URL="../FPGA/LIDAR V2 Globals.vi"/>
-				<Item Name="Algorithm State.ctl" Type="VI" URL="../Controls/Algorithm State.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
@@ -23754,10 +23750,6 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="niFPGA Boolean Crossing.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/analysis/control/nonlinear/niFPGA Boolean Crossing.vi"/>
 				</Item>
-				<Item Name="FPGA Nain State.ctl" Type="VI" URL="../Controls/FPGA Nain State.ctl"/>
-				<Item Name="LIDAR V2 Globals.vi" Type="VI" URL="../FPGA/LIDAR V2 Globals.vi"/>
-				<Item Name="Algorithm State.ctl" Type="VI" URL="../Controls/Algorithm State.ctl"/>
-				<Item Name="Send P2P FIFO to AI Loop.vi" Type="VI" URL="../FPGA/Send P2P FIFO to AI Loop.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
@@ -29848,13 +29840,6 @@ Out FIFO"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multip
 					<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="FPGA Nain State.ctl" Type="VI" URL="../Controls/FPGA Nain State.ctl"/>
-				<Item Name="DO FIFO control.vi" Type="VI" URL="../FPGA/DO FIFO control.vi"/>
-				<Item Name="AO FIFO control.vi" Type="VI" URL="../FPGA/AO FIFO control.vi"/>
-				<Item Name="Algorithm State.ctl" Type="VI" URL="../Controls/Algorithm State.ctl"/>
-				<Item Name="Send P2P FIFO to AI Loop.vi" Type="VI" URL="../FPGA/Send P2P FIFO to AI Loop.vi"/>
-				<Item Name="AI Slave State.ctl" Type="VI" URL="../Controls/AI Slave State.ctl"/>
-				<Item Name="Memory manager V5.vi" Type="VI" URL="../FPGA/Memory manager V5.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
@@ -29943,7 +29928,7 @@ Out FIFO"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multip
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{313FCC57-94A8-433A-BD27-76B084B5B79D}</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Lidar V5.2.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Lidar V5.2.exe</Property>
