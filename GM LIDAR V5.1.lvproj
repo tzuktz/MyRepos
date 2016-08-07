@@ -12696,6 +12696,7 @@ P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple R
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/FPGA Bitfiles/GMLIDARV5.1_Master_LidarMasterV5.2_ir+XSl3Gnyk.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMLIDARV5.1_Master_LidarMasterV5.2_ir+XSl3Gnyk.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Lidar2/Desktop/Testview V5LV15/GM LIDAR V5.1.lvproj</Property>
@@ -30915,7 +30916,7 @@ Out FIFO"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multip
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{313FCC57-94A8-433A-BD27-76B084B5B79D}</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Lidar V5.2.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Lidar V5.2.exe</Property>
