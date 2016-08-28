@@ -12471,11 +12471,6 @@ P2PWr"ControlLogic=0;NumberOfElements=31;Type=4;ReadArbs=Arbitrate if Multiple R
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="niFPGA Boolean Crossing.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/analysis/control/nonlinear/niFPGA Boolean Crossing.vi"/>
 				</Item>
-				<Item Name="FPGA Nain State.ctl" Type="VI" URL="../Controls/FPGA Nain State.ctl"/>
-				<Item Name="AO FIFO control.vi" Type="VI" URL="../FPGA/AO FIFO control.vi"/>
-				<Item Name="update DO.vi" Type="VI" URL="../FPGA/update DO.vi"/>
-				<Item Name="LIDAR V2 Globals.vi" Type="VI" URL="../FPGA/LIDAR V2 Globals.vi"/>
-				<Item Name="Algorithm State.ctl" Type="VI" URL="../Controls/Algorithm State.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
@@ -24744,10 +24739,6 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="niFPGA Boolean Crossing.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/analysis/control/nonlinear/niFPGA Boolean Crossing.vi"/>
 				</Item>
-				<Item Name="FPGA Nain State.ctl" Type="VI" URL="../Controls/FPGA Nain State.ctl"/>
-				<Item Name="LIDAR V2 Globals.vi" Type="VI" URL="../FPGA/LIDAR V2 Globals.vi"/>
-				<Item Name="Algorithm State.ctl" Type="VI" URL="../Controls/Algorithm State.ctl"/>
-				<Item Name="Send P2P FIFO to AI Loop.vi" Type="VI" URL="../FPGA/Send P2P FIFO to AI Loop.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
@@ -32476,12 +32467,6 @@ Out FIFO"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multip
 					<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="FPGA Nain State.ctl" Type="VI" URL="../Controls/FPGA Nain State.ctl"/>
-				<Item Name="AI Slave State.ctl" Type="VI" URL="../Controls/AI Slave State.ctl"/>
-				<Item Name="Algorithm State.ctl" Type="VI" URL="../Controls/Algorithm State.ctl"/>
-				<Item Name="AO FIFO control.vi" Type="VI" URL="../FPGA/AO FIFO control.vi"/>
-				<Item Name="Send P2P FIFO to AI Loop.vi" Type="VI" URL="../FPGA/Send P2P FIFO to AI Loop.vi"/>
-				<Item Name="DO FIFO control.vi" Type="VI" URL="../FPGA/DO FIFO control.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
@@ -32629,7 +32614,7 @@ Out FIFO"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multip
 			<Item Name="LidarSlaveV5.1.4.lvbitx" Type="Document" URL="../FPGA Bitfiles/LidarSlaveV5.1.4.lvbitx"/>
 			<Item Name="Master Configure Clock.vi" Type="VI" URL="../FPGA/Master Configure Clock.vi"/>
 			<Item Name="LidarMasterV5.2.1.lvbitx" Type="Document" URL="../FPGA Bitfiles/LidarMasterV5.2.1.lvbitx"/>
-			<Item Name="GMLIDARV5.1_FPGATarget_LIDAR5.1UnifiedV_TptdWXfnG2s.lvbitx" Type="Document" URL="../FPGA Bitfiles/GMLIDARV5.1_FPGATarget_LIDAR5.1UnifiedV_TptdWXfnG2s.lvbitx"/>
+			<Item Name="Lidar Unified V5.2.1.lvbitx" Type="Document" URL="../FPGA Bitfiles/Lidar Unified V5.2.1.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
@@ -32686,6 +32671,73 @@ Out FIFO"ControlLogic=1;NumberOfElements=513;Type=0;ReadArbs=Arbitrate if Multip
 				<Property Name="TgtF_productName" Type="Str">Lidar 5.2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{4D9B8B9C-C301-4794-A09C-0FF1CBD8F896}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Lidar V5.2.exe</Property>
+			</Item>
+			<Item Name="Lidar 5.2 unified" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{85EC43BC-9A2E-4F12-AB33-D882E132D52A}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{C0A41342-8F2B-4008-815F-2B6A6819314D}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.GM.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E5953C24-3906-48E9-9AE0-5C501CBE8D38}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Lidar 5.2 unified</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{48B39821-0A45-4ECA-BFD6-B783A6BFFC3D}</Property>
+				<Property Name="Bld_version.build" Type="Int">44</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Lidar Unified V5.2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/Lidar Unified V5.2.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C5F4C48A-A560-4B0F-8D9B-3A7EA011207E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Lidar Main V5.2.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Show Abort button</Property>
+				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[3].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[1].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[4].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[1].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Lidar Main V5.2 Unified.vi</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[2].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[4].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[2].properties[4].value" Type="Str">Centered</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">GM</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Lidar 5.2</Property>
+				<Property Name="TgtF_internalName" Type="Str">Lidar 5.2</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 GM</Property>
+				<Property Name="TgtF_productName" Type="Str">Lidar 5.2</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{840DAEB1-639B-4728-92E8-4983AAB4A454}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Lidar Unified V5.2.exe</Property>
 			</Item>
 		</Item>
 	</Item>
